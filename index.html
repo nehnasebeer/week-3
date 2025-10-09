@@ -4,67 +4,98 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Servant Leadership</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+
   <link rel="stylesheet" href="css/style.css" />
   <meta name="description" content="Servant leadership: following Jesus by serving first. Core principles, first steps, and campus practices." />
 </head>
-<body>
-  <a class="skip-link" href="#main">Skip to main content</a>
+<body class="bg-light">
+  <a class="visually-hidden-focusable position-absolute top-0 start-0 p-2 bg-white border rounded" href="#main">
+    Skip to main content
+  </a>
 
-  <header class="page-header">
-    <h1>Servant Leadership</h1>
-    <h2>Following Jesus by Serving First</h2>
+  <header class="py-5 bg-white border-bottom">
+    <div class="container text-center">
+      <h1 class="display-5 fw-bold mb-2">Servant Leadership</h1>
+      <h2 class="h4 text-secondary">Following Jesus by Serving First</h2>
 
-    <nav aria-label="Primary">
-      <a href="page2.html">Read more on Page 2</a>
-    </nav>
+      <nav aria-label="Primary" class="mt-4">
+        <a href="page2.html" class="btn btn-primary btn-lg">Read more on Page 2</a>
+      </nav>
+    </div>
   </header>
 
-  <main id="main" class="flex container">
-    <section id="intro" class="content-section card" aria-labelledby="intro-title">
-      <h3 id="intro-title">Why Servant Leadership?</h3>
-      <p>
-        Servant leadership is a Christ-centered approach where the leader serves first.
-        Jesus modeled this in John 13 when He washed the disciples’ feet, showing that
-        greatness in God’s Kingdom comes through humility and love.
-      </p>
-      <p>
-        In our dorms, classrooms, and communities, this posture changes how we organize,
-        communicate, and care for people. Leading like Jesus means elevating others,
-        stewarding influence wisely, and keeping the Gospel at the center of our work.
-      </p>
-      <figure>
-        <img
-          src="images/istockphoto-1436935510-612x612.jpg"
-          alt="Hands holding a heart, representing Christ-like service and humility"
-          width="320"
-        />
-        <figcaption>“Whoever wants to become great among you must be your servant.” — Mark 10:43</figcaption>
-      </figure>
-    </section>
+  <main id="main" class="container my-5">
+    <div class="row g-4">
+      <section id="intro" class="col-12 col-lg-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 id="intro-title" class="card-title h4">Why Servant Leadership?</h3>
+            <p class="card-text">
+              Servant leadership is a Christ-centered approach where the leader serves first.
+              Jesus modeled this in John 13 when He washed the disciples’ feet, showing that
+              greatness in God’s Kingdom comes through humility and love.
+            </p>
+            <p class="card-text">
+              In our dorms, classrooms, and communities, this posture changes how we organize,
+              communicate, and care for people. Leading like Jesus means elevating others,
+              stewarding influence wisely, and keeping the Gospel at the center of our work.
+            </p>
+            <figure class="mb-0">
+              <img
+                src="images/istockphoto-1436935510-612x612.jpg"
+                alt="Hands holding a heart, representing Christ-like service and humility"
+                class="img-fluid rounded"
+                width="320"
+              />
+              <figcaption class="mt-2 text-muted small">
+                “Whoever wants to become great among you must be your servant.” — Mark 10:43
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
 
-    <section id="principles" class="content-section card" aria-labelledby="principles-title">
-      <h3 id="principles-title">Core Principles</h3>
-      <ul class="list--bulleted">
-        <li>Humility before God and people</li>
-        <li>Love expressed through action</li>
-        <li>Integrity in private and public</li>
-        <li>Stewardship of time, gifts, and resources</li>
-      </ul>
+      <section id="principles" class="col-12 col-lg-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 id="principles-title" class="card-title h4">Core Principles</h3>
+            <ul class="mb-4">
+              <li>Humility before God and people</li>
+              <li>Love expressed through action</li>
+              <li>Integrity in private and public</li>
+              <li>Stewardship of time, gifts, and resources</li>
+            </ul>
 
-      <h3>First Steps This Week</h3>
-      <ol class="list--numbered">
-        <li>Pray and ask the Holy Spirit where to serve one person today.</li>
-        <li>Offer practical help (carry, clean, tutor, encourage).</li>
-        <li>Follow up with care and consistency.</li>
-      </ol>
-    </section>
+            <h3 class="h5">First Steps This Week</h3>
+            <ol class="mb-0">
+              <li>Pray and ask the Holy Spirit where to serve one person today.</li>
+              <li>Offer practical help (carry, clean, tutor, encourage).</li>
+              <li>Follow up with care and consistency.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
 
-  <footer class="page-footer">
-    <p>Continue learning: <a href="page2.html">Practical Ways to Serve on Campus</a></p>
-    <small>&copy; 2025 Servant Leadership Project</small>
+  <footer class="py-4 bg-dark text-white-50">
+    <div class="container text-center small">
+      Continue learning: <a class="link-light text-decoration-underline" href="page2.html">Practical Ways to Serve on Campus</a><br/>
+      &copy; 2025 Servant Leadership Project — “Whatever you do… do it in the name of the Lord Jesus.” (Col 3:17)
+    </div>
   </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
 </body>
 </html>
-
-
